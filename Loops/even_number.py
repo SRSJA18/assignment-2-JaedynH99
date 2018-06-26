@@ -1,11 +1,13 @@
 # Write a program using a while loop that asks the user to enter a number that is divisible by 2.
-#
-# Give the use a witty message if they enter something that is not divisible by 2 and make them enter a new number.
-#
+number = eval(input('Enter an even number.'))
+while number%2 == 0:
+    print('good job!')
+while number%2 != 0:
+    print('bad job!')
 # Don't let them stop until they enter an even number! Print a congratulatory message when they *finally* get it
 
 # This line will ask the user for an even number.
-number = input("Enter an even number?")
+
 
 # 1. create while a loop (What will the condition be?)
 
